@@ -34,40 +34,41 @@ G2L["UICorner_3"] = Instance.new("UICorner", G2L["gui_2"]);
 
 
 
--- Players.miguelalt97.PlayerGui.ScreenGui.gui.script name
-G2L["script name_4"] = Instance.new("Frame", G2L["gui_2"]);
-G2L["script name_4"]["BorderSizePixel"] = 0;
-G2L["script name_4"]["BackgroundColor3"] = Color3.fromRGB(255, 239, 0);
-G2L["script name_4"]["Size"] = UDim2.new(0, 182, 0, 40);
-G2L["script name_4"]["Position"] = UDim2.new(0, 10, 0, 8);
-G2L["script name_4"]["Name"] = [[script name]];
+-- Players.miguelalt97.PlayerGui.ScreenGui.gui.Frame
+G2L["Frame_4"] = Instance.new("Frame", G2L["gui_2"]);
+G2L["Frame_4"]["BorderSizePixel"] = 0;
+G2L["Frame_4"]["BackgroundColor3"] = Color3.fromRGB(254, 255, 212);
+G2L["Frame_4"]["Size"] = UDim2.new(0, 52, 0, 194);
+G2L["Frame_4"]["Position"] = UDim2.new(0, 4, 0, 58);
 
 
--- Players.miguelalt97.PlayerGui.ScreenGui.gui.script name.UICorner
-G2L["UICorner_5"] = Instance.new("UICorner", G2L["script name_4"]);
+-- Players.miguelalt97.PlayerGui.ScreenGui.gui.Frame.UICorner
+G2L["UICorner_5"] = Instance.new("UICorner", G2L["Frame_4"]);
 
 
 
--- Players.miguelalt97.PlayerGui.ScreenGui.gui.script name.TextLabel
-G2L["TextLabel_6"] = Instance.new("TextLabel", G2L["script name_4"]);
+-- Players.miguelalt97.PlayerGui.ScreenGui.gui.Frame.TextLabel
+G2L["TextLabel_6"] = Instance.new("TextLabel", G2L["Frame_4"]);
 G2L["TextLabel_6"]["BorderSizePixel"] = 0;
-G2L["TextLabel_6"]["TextSize"] = 24;
+G2L["TextLabel_6"]["TextSize"] = 18;
 G2L["TextLabel_6"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["TextLabel_6"]["FontFace"] = Font.new([[rbxasset://fonts/families/FredokaOne.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["TextLabel_6"]["FontFace"] = Font.new([[rbxasset://fonts/families/GothamSSm.json]], Enum.FontWeight.Heavy, Enum.FontStyle.Normal);
 G2L["TextLabel_6"]["BackgroundTransparency"] = 1;
-G2L["TextLabel_6"]["Size"] = UDim2.new(0, 202, 0, 50);
-G2L["TextLabel_6"]["Text"] = [[Limonada hub🍋]];
-G2L["TextLabel_6"]["Position"] = UDim2.new(0, -8, 0, -4);
+G2L["TextLabel_6"]["Size"] = UDim2.new(0, 176, 0, 42);
+G2L["TextLabel_6"]["BorderColor3"] = Color3.fromRGB(54, 54, 54);
+G2L["TextLabel_6"]["Text"] = [[UNIVERSAL📌]];
+G2L["TextLabel_6"]["Rotation"] = 90;
+G2L["TextLabel_6"]["Position"] = UDim2.new(0, -62, 0, 76);
 
 
--- Players.miguelalt97.PlayerGui.ScreenGui.gui.script name.UIStroke
-G2L["UIStroke_7"] = Instance.new("UIStroke", G2L["script name_4"]);
+-- Players.miguelalt97.PlayerGui.ScreenGui.gui.Frame.TextLabel.UIStroke
+G2L["UIStroke_7"] = Instance.new("UIStroke", G2L["TextLabel_6"]);
 
 
 
--- Players.miguelalt97.PlayerGui.ScreenGui.gui.UIStroke
-G2L["UIStroke_8"] = Instance.new("UIStroke", G2L["gui_2"]);
-G2L["UIStroke_8"]["Color"] = Color3.fromRGB(255, 138, 0);
+-- Players.miguelalt97.PlayerGui.ScreenGui.gui.Frame.UIStroke
+G2L["UIStroke_8"] = Instance.new("UIStroke", G2L["Frame_4"]);
+
 
 
 -- Players.miguelalt97.PlayerGui.ScreenGui.gui.creator name
@@ -79,21 +80,21 @@ G2L["creator name_9"]["Position"] = UDim2.new(0, 200, 0, 6);
 G2L["creator name_9"]["Name"] = [[creator name]];
 
 
--- Players.miguelalt97.PlayerGui.ScreenGui.gui.creator name.UICorner
-G2L["UICorner_a"] = Instance.new("UICorner", G2L["creator name_9"]);
-
-
-
 -- Players.miguelalt97.PlayerGui.ScreenGui.gui.creator name.TextLabel
-G2L["TextLabel_b"] = Instance.new("TextLabel", G2L["creator name_9"]);
-G2L["TextLabel_b"]["BorderSizePixel"] = 0;
-G2L["TextLabel_b"]["TextSize"] = 18;
-G2L["TextLabel_b"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["TextLabel_b"]["FontFace"] = Font.new([[rbxasset://fonts/families/GothamSSm.json]], Enum.FontWeight.Heavy, Enum.FontStyle.Normal);
-G2L["TextLabel_b"]["BackgroundTransparency"] = 1;
-G2L["TextLabel_b"]["Size"] = UDim2.new(0, 102, 0, 46);
-G2L["TextLabel_b"]["Text"] = [[by:miguelalt97]];
-G2L["TextLabel_b"]["Position"] = UDim2.new(0, 38, 0, -4);
+G2L["TextLabel_a"] = Instance.new("TextLabel", G2L["creator name_9"]);
+G2L["TextLabel_a"]["BorderSizePixel"] = 0;
+G2L["TextLabel_a"]["TextSize"] = 18;
+G2L["TextLabel_a"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["TextLabel_a"]["FontFace"] = Font.new([[rbxasset://fonts/families/GothamSSm.json]], Enum.FontWeight.Heavy, Enum.FontStyle.Normal);
+G2L["TextLabel_a"]["BackgroundTransparency"] = 1;
+G2L["TextLabel_a"]["Size"] = UDim2.new(0, 102, 0, 46);
+G2L["TextLabel_a"]["Text"] = [[by:miguelalt97]];
+G2L["TextLabel_a"]["Position"] = UDim2.new(0, 38, 0, -4);
+
+
+-- Players.miguelalt97.PlayerGui.ScreenGui.gui.creator name.UICorner
+G2L["UICorner_b"] = Instance.new("UICorner", G2L["creator name_9"]);
+
 
 
 -- Players.miguelalt97.PlayerGui.ScreenGui.gui.scripts
@@ -105,113 +106,113 @@ G2L["scripts_c"]["Position"] = UDim2.new(0, 60, 0, 56);
 G2L["scripts_c"]["Name"] = [[scripts]];
 
 
--- Players.miguelalt97.PlayerGui.ScreenGui.gui.scripts.TextButton4
-G2L["TextButton4_d"] = Instance.new("TextButton", G2L["scripts_c"]);
-G2L["TextButton4_d"]["BorderSizePixel"] = 0;
-G2L["TextButton4_d"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["TextButton4_d"]["BackgroundColor3"] = Color3.fromRGB(255, 197, 0);
-G2L["TextButton4_d"]["Size"] = UDim2.new(0, 84, 0, 38);
-G2L["TextButton4_d"]["Text"] = [[test]];
-G2L["TextButton4_d"]["Name"] = [[TextButton4]];
-G2L["TextButton4_d"]["Position"] = UDim2.new(0, 8, 0, 52);
-
-
--- Players.miguelalt97.PlayerGui.ScreenGui.gui.scripts.TextButton4.UICorner
-G2L["UICorner_e"] = Instance.new("UICorner", G2L["TextButton4_d"]);
-
-
-
--- Players.miguelalt97.PlayerGui.ScreenGui.gui.scripts.TextButton4.UIStroke
-G2L["UIStroke_f"] = Instance.new("UIStroke", G2L["TextButton4_d"]);
-
-
-
--- Players.miguelalt97.PlayerGui.ScreenGui.gui.scripts.TextButton2
-G2L["TextButton2_10"] = Instance.new("TextButton", G2L["scripts_c"]);
-G2L["TextButton2_10"]["BorderSizePixel"] = 0;
-G2L["TextButton2_10"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["TextButton2_10"]["BackgroundColor3"] = Color3.fromRGB(255, 197, 0);
-G2L["TextButton2_10"]["Size"] = UDim2.new(0, 84, 0, 38);
-G2L["TextButton2_10"]["Text"] = [[test]];
-G2L["TextButton2_10"]["Name"] = [[TextButton2]];
-G2L["TextButton2_10"]["Position"] = UDim2.new(0, 102, 0, 8);
-
-
--- Players.miguelalt97.PlayerGui.ScreenGui.gui.scripts.TextButton2.UICorner
-G2L["UICorner_11"] = Instance.new("UICorner", G2L["TextButton2_10"]);
-
-
-
--- Players.miguelalt97.PlayerGui.ScreenGui.gui.scripts.TextButton2.UIStroke
-G2L["UIStroke_12"] = Instance.new("UIStroke", G2L["TextButton2_10"]);
-
-
-
--- Players.miguelalt97.PlayerGui.ScreenGui.gui.scripts.TextButton7
-G2L["TextButton7_13"] = Instance.new("TextButton", G2L["scripts_c"]);
-G2L["TextButton7_13"]["BorderSizePixel"] = 0;
-G2L["TextButton7_13"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["TextButton7_13"]["BackgroundColor3"] = Color3.fromRGB(255, 197, 0);
-G2L["TextButton7_13"]["Size"] = UDim2.new(0, 84, 0, 38);
-G2L["TextButton7_13"]["Text"] = [[test]];
-G2L["TextButton7_13"]["Name"] = [[TextButton7]];
-G2L["TextButton7_13"]["Position"] = UDim2.new(0, 10, 0, 98);
-
-
--- Players.miguelalt97.PlayerGui.ScreenGui.gui.scripts.TextButton7.UICorner
-G2L["UICorner_14"] = Instance.new("UICorner", G2L["TextButton7_13"]);
-
-
-
--- Players.miguelalt97.PlayerGui.ScreenGui.gui.scripts.TextButton7.UIStroke
-G2L["UIStroke_15"] = Instance.new("UIStroke", G2L["TextButton7_13"]);
-
-
-
--- Players.miguelalt97.PlayerGui.ScreenGui.gui.scripts.UICorner
-G2L["UICorner_16"] = Instance.new("UICorner", G2L["scripts_c"]);
-
-
-
 -- Players.miguelalt97.PlayerGui.ScreenGui.gui.scripts.TextButton6
-G2L["TextButton6_17"] = Instance.new("TextButton", G2L["scripts_c"]);
-G2L["TextButton6_17"]["BorderSizePixel"] = 0;
-G2L["TextButton6_17"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["TextButton6_17"]["BackgroundColor3"] = Color3.fromRGB(255, 197, 0);
-G2L["TextButton6_17"]["Size"] = UDim2.new(0, 84, 0, 38);
-G2L["TextButton6_17"]["Text"] = [[test]];
-G2L["TextButton6_17"]["Name"] = [[TextButton6]];
-G2L["TextButton6_17"]["Position"] = UDim2.new(0, 198, 0, 52);
+G2L["TextButton6_d"] = Instance.new("TextButton", G2L["scripts_c"]);
+G2L["TextButton6_d"]["BorderSizePixel"] = 0;
+G2L["TextButton6_d"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["TextButton6_d"]["BackgroundColor3"] = Color3.fromRGB(255, 197, 0);
+G2L["TextButton6_d"]["Size"] = UDim2.new(0, 84, 0, 38);
+G2L["TextButton6_d"]["Text"] = [[test]];
+G2L["TextButton6_d"]["Name"] = [[TextButton6]];
+G2L["TextButton6_d"]["Position"] = UDim2.new(0, 198, 0, 52);
 
 
 -- Players.miguelalt97.PlayerGui.ScreenGui.gui.scripts.TextButton6.UICorner
-G2L["UICorner_18"] = Instance.new("UICorner", G2L["TextButton6_17"]);
+G2L["UICorner_e"] = Instance.new("UICorner", G2L["TextButton6_d"]);
 
 
 
 -- Players.miguelalt97.PlayerGui.ScreenGui.gui.scripts.TextButton6.UIStroke
-G2L["UIStroke_19"] = Instance.new("UIStroke", G2L["TextButton6_17"]);
+G2L["UIStroke_f"] = Instance.new("UIStroke", G2L["TextButton6_d"]);
+
+
+
+-- Players.miguelalt97.PlayerGui.ScreenGui.gui.scripts.TextButton7
+G2L["TextButton7_10"] = Instance.new("TextButton", G2L["scripts_c"]);
+G2L["TextButton7_10"]["BorderSizePixel"] = 0;
+G2L["TextButton7_10"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["TextButton7_10"]["BackgroundColor3"] = Color3.fromRGB(255, 197, 0);
+G2L["TextButton7_10"]["Size"] = UDim2.new(0, 84, 0, 38);
+G2L["TextButton7_10"]["Text"] = [[test]];
+G2L["TextButton7_10"]["Name"] = [[TextButton7]];
+G2L["TextButton7_10"]["Position"] = UDim2.new(0, 10, 0, 98);
+
+
+-- Players.miguelalt97.PlayerGui.ScreenGui.gui.scripts.TextButton7.UICorner
+G2L["UICorner_11"] = Instance.new("UICorner", G2L["TextButton7_10"]);
+
+
+
+-- Players.miguelalt97.PlayerGui.ScreenGui.gui.scripts.TextButton7.UIStroke
+G2L["UIStroke_12"] = Instance.new("UIStroke", G2L["TextButton7_10"]);
+
+
+
+-- Players.miguelalt97.PlayerGui.ScreenGui.gui.scripts.UICorner
+G2L["UICorner_13"] = Instance.new("UICorner", G2L["scripts_c"]);
+
+
+
+-- Players.miguelalt97.PlayerGui.ScreenGui.gui.scripts.TextButton2
+G2L["TextButton2_14"] = Instance.new("TextButton", G2L["scripts_c"]);
+G2L["TextButton2_14"]["BorderSizePixel"] = 0;
+G2L["TextButton2_14"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["TextButton2_14"]["BackgroundColor3"] = Color3.fromRGB(255, 197, 0);
+G2L["TextButton2_14"]["Size"] = UDim2.new(0, 84, 0, 38);
+G2L["TextButton2_14"]["Text"] = [[test]];
+G2L["TextButton2_14"]["Name"] = [[TextButton2]];
+G2L["TextButton2_14"]["Position"] = UDim2.new(0, 102, 0, 8);
+
+
+-- Players.miguelalt97.PlayerGui.ScreenGui.gui.scripts.TextButton2.UICorner
+G2L["UICorner_15"] = Instance.new("UICorner", G2L["TextButton2_14"]);
+
+
+
+-- Players.miguelalt97.PlayerGui.ScreenGui.gui.scripts.TextButton2.UIStroke
+G2L["UIStroke_16"] = Instance.new("UIStroke", G2L["TextButton2_14"]);
 
 
 
 -- Players.miguelalt97.PlayerGui.ScreenGui.gui.scripts.TextButton5
-G2L["TextButton5_1a"] = Instance.new("TextButton", G2L["scripts_c"]);
-G2L["TextButton5_1a"]["BorderSizePixel"] = 0;
-G2L["TextButton5_1a"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["TextButton5_1a"]["BackgroundColor3"] = Color3.fromRGB(255, 197, 0);
-G2L["TextButton5_1a"]["Size"] = UDim2.new(0, 84, 0, 38);
-G2L["TextButton5_1a"]["Text"] = [[test]];
-G2L["TextButton5_1a"]["Name"] = [[TextButton5]];
-G2L["TextButton5_1a"]["Position"] = UDim2.new(0, 102, 0, 54);
+G2L["TextButton5_17"] = Instance.new("TextButton", G2L["scripts_c"]);
+G2L["TextButton5_17"]["BorderSizePixel"] = 0;
+G2L["TextButton5_17"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["TextButton5_17"]["BackgroundColor3"] = Color3.fromRGB(255, 197, 0);
+G2L["TextButton5_17"]["Size"] = UDim2.new(0, 84, 0, 38);
+G2L["TextButton5_17"]["Text"] = [[test]];
+G2L["TextButton5_17"]["Name"] = [[TextButton5]];
+G2L["TextButton5_17"]["Position"] = UDim2.new(0, 102, 0, 54);
 
 
 -- Players.miguelalt97.PlayerGui.ScreenGui.gui.scripts.TextButton5.UICorner
-G2L["UICorner_1b"] = Instance.new("UICorner", G2L["TextButton5_1a"]);
+G2L["UICorner_18"] = Instance.new("UICorner", G2L["TextButton5_17"]);
 
 
 
 -- Players.miguelalt97.PlayerGui.ScreenGui.gui.scripts.TextButton5.UIStroke
-G2L["UIStroke_1c"] = Instance.new("UIStroke", G2L["TextButton5_1a"]);
+G2L["UIStroke_19"] = Instance.new("UIStroke", G2L["TextButton5_17"]);
+
+
+
+-- Players.miguelalt97.PlayerGui.ScreenGui.gui.scripts.TextButton4
+G2L["TextButton4_1a"] = Instance.new("TextButton", G2L["scripts_c"]);
+G2L["TextButton4_1a"]["BorderSizePixel"] = 0;
+G2L["TextButton4_1a"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["TextButton4_1a"]["BackgroundColor3"] = Color3.fromRGB(255, 197, 0);
+G2L["TextButton4_1a"]["Size"] = UDim2.new(0, 84, 0, 38);
+G2L["TextButton4_1a"]["Text"] = [[test]];
+G2L["TextButton4_1a"]["Name"] = [[TextButton4]];
+G2L["TextButton4_1a"]["Position"] = UDim2.new(0, 8, 0, 52);
+
+
+-- Players.miguelalt97.PlayerGui.ScreenGui.gui.scripts.TextButton4.UICorner
+G2L["UICorner_1b"] = Instance.new("UICorner", G2L["TextButton4_1a"]);
+
+
+
+-- Players.miguelalt97.PlayerGui.ScreenGui.gui.scripts.TextButton4.UIStroke
+G2L["UIStroke_1c"] = Instance.new("UIStroke", G2L["TextButton4_1a"]);
 
 
 
@@ -242,17 +243,17 @@ G2L["TextButton_20"]["BorderSizePixel"] = 0;
 G2L["TextButton_20"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
 G2L["TextButton_20"]["BackgroundColor3"] = Color3.fromRGB(255, 197, 0);
 G2L["TextButton_20"]["Size"] = UDim2.new(0, 84, 0, 38);
-G2L["TextButton_20"]["Text"] = [[gravity 1]];
+G2L["TextButton_20"]["Text"] = [[infinite yield]];
 G2L["TextButton_20"]["Position"] = UDim2.new(0, 8, 0, 8);
 
 
--- Players.miguelalt97.PlayerGui.ScreenGui.gui.scripts.TextButton.UICorner
-G2L["UICorner_21"] = Instance.new("UICorner", G2L["TextButton_20"]);
-
-
-
 -- Players.miguelalt97.PlayerGui.ScreenGui.gui.scripts.TextButton.LocalScript
-G2L["LocalScript_22"] = Instance.new("LocalScript", G2L["TextButton_20"]);
+G2L["LocalScript_21"] = Instance.new("LocalScript", G2L["TextButton_20"]);
+
+
+
+-- Players.miguelalt97.PlayerGui.ScreenGui.gui.scripts.TextButton.UICorner
+G2L["UICorner_22"] = Instance.new("UICorner", G2L["TextButton_20"]);
 
 
 
@@ -266,133 +267,223 @@ G2L["UIStroke_24"] = Instance.new("UIStroke", G2L["scripts_c"]);
 
 
 
--- Players.miguelalt97.PlayerGui.ScreenGui.gui.Frame
-G2L["Frame_25"] = Instance.new("Frame", G2L["gui_2"]);
-G2L["Frame_25"]["BorderSizePixel"] = 0;
-G2L["Frame_25"]["BackgroundColor3"] = Color3.fromRGB(254, 255, 212);
-G2L["Frame_25"]["Size"] = UDim2.new(0, 52, 0, 194);
-G2L["Frame_25"]["Position"] = UDim2.new(0, 4, 0, 58);
+-- Players.miguelalt97.PlayerGui.ScreenGui.gui.UIStroke
+G2L["UIStroke_25"] = Instance.new("UIStroke", G2L["gui_2"]);
+G2L["UIStroke_25"]["Color"] = Color3.fromRGB(255, 138, 0);
 
 
--- Players.miguelalt97.PlayerGui.ScreenGui.gui.Frame.UICorner
-G2L["UICorner_26"] = Instance.new("UICorner", G2L["Frame_25"]);
+-- Players.miguelalt97.PlayerGui.ScreenGui.gui.script name
+G2L["script name_26"] = Instance.new("Frame", G2L["gui_2"]);
+G2L["script name_26"]["BorderSizePixel"] = 0;
+G2L["script name_26"]["BackgroundColor3"] = Color3.fromRGB(255, 239, 0);
+G2L["script name_26"]["Size"] = UDim2.new(0, 182, 0, 40);
+G2L["script name_26"]["Position"] = UDim2.new(0, 10, 0, 8);
+G2L["script name_26"]["Name"] = [[script name]];
 
 
-
--- Players.miguelalt97.PlayerGui.ScreenGui.gui.Frame.TextLabel
-G2L["TextLabel_27"] = Instance.new("TextLabel", G2L["Frame_25"]);
-G2L["TextLabel_27"]["BorderSizePixel"] = 0;
-G2L["TextLabel_27"]["TextSize"] = 18;
-G2L["TextLabel_27"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["TextLabel_27"]["FontFace"] = Font.new([[rbxasset://fonts/families/GothamSSm.json]], Enum.FontWeight.Heavy, Enum.FontStyle.Normal);
-G2L["TextLabel_27"]["BackgroundTransparency"] = 1;
-G2L["TextLabel_27"]["Size"] = UDim2.new(0, 176, 0, 42);
-G2L["TextLabel_27"]["BorderColor3"] = Color3.fromRGB(54, 54, 54);
-G2L["TextLabel_27"]["Text"] = [[UNIVERSAL📌]];
-G2L["TextLabel_27"]["Rotation"] = 90;
-G2L["TextLabel_27"]["Position"] = UDim2.new(0, -62, 0, 76);
-
-
--- Players.miguelalt97.PlayerGui.ScreenGui.gui.Frame.TextLabel.UIStroke
-G2L["UIStroke_28"] = Instance.new("UIStroke", G2L["TextLabel_27"]);
+-- Players.miguelalt97.PlayerGui.ScreenGui.gui.script name.UICorner
+G2L["UICorner_27"] = Instance.new("UICorner", G2L["script name_26"]);
 
 
 
--- Players.miguelalt97.PlayerGui.ScreenGui.gui.Frame.UIStroke
-G2L["UIStroke_29"] = Instance.new("UIStroke", G2L["Frame_25"]);
+-- Players.miguelalt97.PlayerGui.ScreenGui.gui.script name.TextLabel
+G2L["TextLabel_28"] = Instance.new("TextLabel", G2L["script name_26"]);
+G2L["TextLabel_28"]["BorderSizePixel"] = 0;
+G2L["TextLabel_28"]["TextSize"] = 24;
+G2L["TextLabel_28"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["TextLabel_28"]["FontFace"] = Font.new([[rbxasset://fonts/families/FredokaOne.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["TextLabel_28"]["BackgroundTransparency"] = 1;
+G2L["TextLabel_28"]["Size"] = UDim2.new(0, 202, 0, 50);
+G2L["TextLabel_28"]["Text"] = [[Limonada hub🍋]];
+G2L["TextLabel_28"]["Position"] = UDim2.new(0, -8, 0, -4);
+
+
+-- Players.miguelalt97.PlayerGui.ScreenGui.gui.script name.UIStroke
+G2L["UIStroke_29"] = Instance.new("UIStroke", G2L["script name_26"]);
 
 
 
 -- Players.miguelalt97.PlayerGui.ScreenGui.gui.scripts.TextButton.LocalScript
-local function C_22()
-	local script = G2L["LocalScript_22"];
-	-- Script (dentro do seu botão no StarterGui)	
-	local Button = script.Parent	
-	local ReplicatedStorage = game:GetService("ReplicatedStorage")	
-	local Workspace = game:GetService("Workspace")	
+local function C_21()
+	local script = G2L["LocalScript_21"];
+	if IY_LOADED and not _G.IY_DEBUG == true then	
+	    -- error("Infinite Yield is already running!", 0)	
+	    return	
+	end	
 	
-	local EVENT_NAME = "ChangeGravityEvent"	
-	local NOVA_GRAVIDADE = 1	
-	local GRAVIDADE_PADRAO = 196.2	
+	pcall(function() getgenv().IY_LOADED = true end)	
+	if not game:IsLoaded() then game.Loaded:Wait() end	
 	
-	local isGravityLow = false	
+	function missing(t, f, fallback)	
+	    if type(f) == t then return f end	
+	    return fallback	
+	end	
 	
-	-- --- LÓGICA DO SERVIDOR ---	
-	-- Esta parte será executada pelo servidor	
-	local function setupServer()	
-	    -- 1. Tenta encontrar ou cria o RemoteEvent no ReplicatedStorage	
-	    local ChangeGravityEvent = ReplicatedStorage:FindFirstChild(EVENT_NAME)	
-	    if not ChangeGravityEvent then	
-	        ChangeGravityEvent = Instance.new("RemoteEvent")	
-	        ChangeGravityEvent.Name = EVENT_NAME	
-	        ChangeGravityEvent.Parent = ReplicatedStorage	
-	        print("Servidor: RemoteEvent '" .. EVENT_NAME .. "' criado em ReplicatedStorage.")	
-	    end	
+	cloneref = missing("function", cloneref, function(...) return ... end)	
+	sethidden =  missing("function", sethiddenproperty or set_hidden_property or set_hidden_prop)	
+	gethidden =  missing("function", gethiddenproperty or get_hidden_property or get_hidden_prop)	
+	queueteleport =  missing("function", queue_on_teleport or (syn and syn.queue_on_teleport) or (fluxus and fluxus.queue_on_teleport))	
+	httprequest =  missing("function", request or http_request or (syn and syn.request) or (http and http.request) or (fluxus and fluxus.request))	
+	everyClipboard = missing("function", setclipboard or toclipboard or set_clipboard or (Clipboard and Clipboard.set))	
+	firetouchinterest = missing("function", firetouchinterest)	
+	waxwritefile, waxreadfile = writefile, readfile	
+	writefile = missing("function", waxwritefile) and function(file, data, safe)	
+	    if safe == true then return pcall(waxwritefile, file, data) end	
+	    waxwritefile(file, data)	
+	end	
+	readfile = missing("function", waxreadfile) and function(file, safe)	
+	    if safe == true then return pcall(waxreadfile, file) end	
+	    return waxreadfile(file)	
+	end	
+	isfile = missing("function", isfile, readfile and function(file)	
+	    local success, result = pcall(function()	
+	        return readfile(file)	
+	    end)	
+	    return success and result ~= nil and result ~= ""	
+	end)	
+	makefolder = missing("function", makefolder)	
+	isfolder = missing("function", isfolder)	
+	waxgetcustomasset = missing("function", getcustomasset or getsynasset)	
+	hookfunction = missing("function", hookfunction)	
+	hookmetamethod = missing("function", hookmetamethod)	
+	getnamecallmethod = missing("function", getnamecallmethod or get_namecall_method)	
+	checkcaller = missing("function", checkcaller, function() return false end)	
+	newcclosure = missing("function", newcclosure)	
+	getgc = missing("function", getgc or get_gc_objects)	
+	setthreadidentity = missing("function", setthreadidentity or (syn and syn.set_thread_identity) or syn_context_set or setthreadcontext)	
+	replicatesignal = missing("function", replicatesignal)	
+	getconnections = missing("function", getconnections or get_signal_cons)	
 	
-	    -- 2. Define a função do servidor para mudar a gravidade	
-	    local function onChangeGravityRequest(player, targetGravity)	
-	        -- Verifica se o valor é válido antes de aplicar (segurança)	
-	        if typeof(targetGravity) == "number" and targetGravity >= 0 and targetGravity <= 200 then	
-	            Workspace.Gravity = targetGravity	
-	            print("Servidor: Gravidade mudada para " .. targetGravity .. " por " .. player.Name)	
+	Services = setmetatable({}, {	
+	    __index = function(self, name)	
+	        local success, cache = pcall(function()	
+	            return cloneref(game:GetService(name))	
+	        end)	
+	        if success then	
+	            rawset(self, name, cache)	
+	            return cache	
 	        else	
-	            warn("Servidor: Tentativa inválida de mudar gravidade.")	
+	            error("Invalid Roblox Service: " .. tostring(name))	
 	        end	
 	    end	
+	})	
 	
-	    -- Conecta a função ao evento	
-	    ChangeGravityEvent.OnServerEvent:Connect(onChangeGravityRequest)	
+	COREGUI = Services.CoreGui	
+	Players = Services.Players	
+	UserInputService = Services.UserInputService	
+	TweenService = Services.TweenService	
+	HttpService = Services.HttpService	
+	MarketplaceService = Services.MarketplaceService	
+	RunService = Services.RunService	
+	TeleportService = Services.TeleportService	
+	StarterGui = Services.StarterGui	
+	GuiService = Services.GuiService	
+	Lighting = Services.Lighting	
+	ContextActionService = Services.ContextActionService	
+	ReplicatedStorage = Services.ReplicatedStorage	
+	GroupService = Services.GroupService	
+	PathService = Services.PathfindingService	
+	SoundService = Services.SoundService	
+	Teams = Services.Teams	
+	StarterPlayer = Services.StarterPlayer	
+	InsertService = Services.InsertService	
+	ChatService = Services.Chat	
+	ProximityPromptService = Services.ProximityPromptService	
+	ContentProvider = Services.ContentProvider	
+	StatsService = Services.Stats	
+	MaterialService = Services.MaterialService	
+	AvatarEditorService = Services.AvatarEditorService	
+	TextService = Services.TextService	
+	TextChatService = Services.TextChatService	
+	CaptureService = Services.CaptureService	
+	VoiceChatService = Services.VoiceChatService	
+	
+	IYMouse = cloneref(Players.LocalPlayer:GetMouse())	
+	PlayerGui = cloneref(Players.LocalPlayer:FindFirstChildWhichIsA("PlayerGui"))	
+	PlaceId, JobId = game.PlaceId, game.JobId	
+	xpcall(function()	
+	    IsOnMobile = table.find({Enum.Platform.Android, Enum.Platform.IOS}, UserInputService:GetPlatform())	
+	end, function()	
+	    IsOnMobile = UserInputService.TouchEnabled and not UserInputService.KeyboardEnabled	
+	end)	
+	isLegacyChat = TextChatService.ChatVersion == Enum.ChatVersion.LegacyChatService	
+	
+	-- xylex & europa	
+	local iyassets = {	
+	    ["infiniteyield/assets/bindsandplugins.png"] = "rbxassetid://5147695474",	
+	    ["infiniteyield/assets/close.png"] = "rbxassetid://5054663650",	
+	    ["infiniteyield/assets/editaliases.png"] = "rbxassetid://5147488658",	
+	    ["infiniteyield/assets/editkeybinds.png"] = "rbxassetid://129697930",	
+	    ["infiniteyield/assets/edittheme.png"] = "rbxassetid://4911962991",	
+	    ["infiniteyield/assets/editwaypoints.png"] = "rbxassetid://5147488592",	
+	    ["infiniteyield/assets/imgstudiopluginlogo.png"] = "rbxassetid://4113050383",	
+	    ["infiniteyield/assets/logo.png"] = "rbxassetid://1352543873",	
+	    ["infiniteyield/assets/minimize.png"] = "rbxassetid://2406617031",	
+	    ["infiniteyield/assets/pin.png"] = "rbxassetid://6234691350",	
+	    ["infiniteyield/assets/reference.png"] = "rbxassetid://3523243755",	
+	    ["infiniteyield/assets/settings.png"] = "rbxassetid://1204397029"	
+	}	
+	
+	local function getcustomasset(asset)	
+	    if waxgetcustomasset then	
+	        local success, result = pcall(function()	
+	            return waxgetcustomasset(asset)	
+	        end)	
+	        if success and result ~= nil and result ~= "" then	
+	            return result	
+	        end	
+	    end	
+	    return iyassets[asset]	
 	end	
 	
-	-- --- LÓGICA DO CLIENTE ---	
-	-- Esta parte será executada pelo cliente	
-	local function setupClient()	
-	    -- 1. Espera pelo RemoteEvent que o servidor criou (ou já existe)	
-	    local ChangeGravityEvent = ReplicatedStorage:WaitForChild(EVENT_NAME)	
-	    	
-	    -- 2. Configura o texto do botão (Se houver)	
-	    if Button:IsA("TextButton") then	
-	        Button.Text = "Ativar Gravidade Baixa"	
-	    end	
-	    	
-	    -- 3. Define a função de clique	
-	    local function onButtonClicked()	
-	        isGravityLow = not isGravityLow	
-	        	
-	        local targetGravity	
-	        if isGravityLow then	
-	            targetGravity = NOVA_GRAVIDADE	
-	            if Button:IsA("TextButton") then	
-	                Button.Text = "Desativar Gravidade"	
-	            end	
-	        else	
-	            targetGravity = GRAVIDADE_PADRAO	
-	            if Button:IsA("TextButton") then	
-	                Button.Text = "Ativar Gravidade Baixa"	
+	if makefolder and isfolder and writefile and isfile then	
+	    pcall(function() -- good executor trust	
+	        local assets = "https://raw.githubusercontent.com/infyiff/backup/refs/heads/main/"	
+	        for _, folder in {"infiniteyield", "infiniteyield/assets"} do	
+	            if not isfolder(folder) then	
+	                makefolder(folder)	
 	            end	
 	        end	
-	        	
-	        -- Envia a nova gravidade para o servidor	
-	        ChangeGravityEvent:FireServer(targetGravity)	
-	        print("Cliente: Solicitado mudança para gravidade " .. targetGravity)	
-	    end	
-	
-	    -- 4. Conecta a função ao evento de clique	
-	    Button.MouseButton1Click:Connect(onButtonClicked)	
+	        for path in iyassets do	
+	            if not isfile(path) then	
+	                writefile(path, game:HttpGet((path:gsub("infiniteyield/", assets))))	
+	            end	
+	        end	
+	        if IsOnMobile then writefile("infiniteyield/assets/.nomedia") end	
+	    end)	
 	end	
 	
-	-- --- INICIALIZAÇÃO ---	
+	currentVersion = "6.3.4"	
 	
-	-- Verifica se este script está rodando no servidor ou no cliente	
-	if game:GetService("RunService"):IsServer() then	
-	    -- Se for o servidor, configura o RemoteEvent e a função de mudança de gravidade	
-	    setupServer()	
-	else	
-	    -- Se for o cliente, configura o botão	
-	    setupClient()	
-	end	
-	
-end;
-task.spawn(C_22);
-
-return G2L["ScreenGui_1"], require;
+	ScaledHolder = Instance.new("Frame")	
+	Scale = Instance.new("UIScale")	
+	Holder = Instance.new("Frame")	
+	Title = Instance.new("TextLabel")	
+	Dark = Instance.new("Frame")	
+	Cmdbar = Instance.new("TextBox")	
+	CMDsF = Instance.new("ScrollingFrame")	
+	cmdListLayout = Instance.new("UIListLayout")	
+	SettingsButton = Instance.new("ImageButton")	
+	ColorsButton = Instance.new("ImageButton")	
+	Settings = Instance.new("Frame")	
+	Prefix = Instance.new("TextLabel")	
+	PrefixBox = Instance.new("TextBox")	
+	Keybinds = Instance.new("TextLabel")	
+	StayOpen = Instance.new("TextLabel")	
+	Button = Instance.new("Frame")	
+	On = Instance.new("TextButton")	
+	Positions = Instance.new("TextLabel")	
+	EventBind = Instance.new("TextLabel")	
+	Plugins = Instance.new("TextLabel")	
+	Example = Instance.new("TextButton")	
+	Notification = Instance.new("Frame")	
+	Title_2 = Instance.new("TextLabel")	
+	Text_2 = Instance.new("TextLabel")	
+	CloseButton = Instance.new("TextButton")	
+	CloseImage = Instance.new("ImageLabel")	
+	PinButton = Instance.new("TextButton")	
+	PinImage = Instance.new("ImageLabel")	
+	Tooltip = Instance.new("Frame")	
+	Title_3 = Instance.new("TextLabel")	
+	Description = Instance.new("TextLabel")	
+	IntroBackground
